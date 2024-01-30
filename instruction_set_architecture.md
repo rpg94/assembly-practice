@@ -53,4 +53,27 @@ One advantage of splitting complex instructions into minor ones is having the in
 
 RISC processors consume a fraction of the power of CISC which makes these processors ideal for devices that run on batteries, like smartphones and laptops
 
+### CISC vs. RISC
+
+---
+
+| Area | CISC | RISC |
+| --- | --- | ---|
+| Complexity | Favors complex instructions | Favors simple instructions |
+| Length of instructions | Longer instructions - Variable length 'multiple of 8-bits | Shorter instructions - Fixed length '32-bit/64-bt' |
+| Total instructions per program | Fewer total instructions - Shorter code | More total instructions - Longer code |
+| Optimization | Relies on hardware optimization (in CPU) | Relies on software optimization (in Assembly) |
+| Instruction Execution Tme | Variable - Multiple clock cycles | Fixed - One clock cycle |
+| Instructions supported by CPU | Many instructions (~1500) | Fewer instructions (~200) |
+| Power Consumption | High | Very Low |
+| Examples | Intel, AMD | ARM, APPle |
+
+In the past, longer assembly code in RISC was a significant disadvantage
+It is not as big of an issue now as memory and storage are not as expensive and limited
+
+RISC may end up becoming the dominant processor in the future but right now CISC is king
+
+
+
+
 
